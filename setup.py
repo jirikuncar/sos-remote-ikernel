@@ -84,6 +84,7 @@ setup(
     entry_points={
         'sos_languages': [
             'python_slurm = sos_remote_ikernel:sos_PythonSlurm',
+            'r_slurm = sos_remote_ikernel:sos_RSlurm',
         ],
     },
     extras_require=extras_require,
